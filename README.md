@@ -28,6 +28,8 @@ curl.exe -X POST http://localhost:3000/import -F "file=@sample-zerodha.csv"
 - Returns normalized trades + detailed error reports
 - Provides REST API with `/import` endpoint
 
+**Want to understand how it works internally?** → See [HOW_IT_WORKS.md](HOW_IT_WORKS.md)
+
 ## Evaluation Criteria
 
 ### 1. Error Handling ✅
