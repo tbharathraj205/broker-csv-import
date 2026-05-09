@@ -6,3 +6,4 @@ dist/
 .env.local
 coverage/
 .nyc_output/
+HOW_IT_WORKS.md
