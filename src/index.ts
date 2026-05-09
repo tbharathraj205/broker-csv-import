@@ -4,6 +4,9 @@ import routes from './routes';
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// Format JSON output nicely
+app.set('json spaces', 2);
+
 // Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
